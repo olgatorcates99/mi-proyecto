@@ -1,0 +1,164 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Jost', sans-serif;
+ font-family: 'Playfair Display', serif;
+}
+
+nav, ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+
+}
+
+
+
+#inicio,
+#contacto {
+  height: 100px;
+  padding: 50px;
+  scroll-margin-top: 60px; /* Añadir un margen superior para evitar que el header cubra el contenido */
+}
+
+body
+{  
+margin: 0;
+padding: 0;
+}
+
+h1,h2{
+  text-align: center;
+}
+
+.centrar{
+  display: flex;
+  justify-content: center;
+
+}
+
+.hablemos{ 
+
+  background-color: pink;
+  height: 250px;
+  width: 1000px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.parrafo1{ 
+
+  height: 250px;
+  width: 1000px;
+  border-radius: 10%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.circulo{
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  }
+
+  .parteBoton {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    outline: none; /* Elimina el remarcado del botón */
+    border: none; /* Elimina el borde del botón */
+  }
+ 
+
+.boton{ 
+  text-align: center;
+  display: block;
+  width: 180px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 50;
+  border-radius: 10px;
+  margin: 50px 50px;
+  height: 50px;
+  align-content: center;
+  background-color: blueviolet; 
+  outline: none; /* Elimina el remarcado del botón */
+  border: none; /* Elimina el borde del botón */
+
+}
+
+ul {
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+#piePagina{ 
+  display: flex;
+  justify-content:center;
+}
+
+.mail, .gif, .link{
+  height: 50px;
+  width: 50px;
+  margin: 30px 20px;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+
+.final {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: blueviolet;
+  margin: auto;
+  display: grid;
+  grid-gap: 50px;
+  padding: 10px 20px;
+}
+
+p{
+  text-align: center, justify ;
+}
+
+#encabezado{
+  text-align: left;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100px;
+    padding: 10px 20px;
+    position: fixed;
+    box-shadow: 6px 6px 10px #cecbcb;
+    background-color: #fbfbfb;
+}
+
+#logo{
+  max-height: 70px;
+}
+
+.columna{
+  width: 100px;
+}
